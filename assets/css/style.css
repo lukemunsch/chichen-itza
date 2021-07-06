@@ -8,11 +8,12 @@ body {
     margin: 0 auto;
     border: 3px double rgb(189, 192, 194);
     border-color: rgb(189, 192, 194);
-    padding: 5px 10px;
+    padding: 5px 0px;
 }
 
 p {
     font-family: Oswald, sans-serif;
+    letter-spacing: 1px;
 }
 
 #cover-text h1 {
@@ -29,17 +30,32 @@ p {
 }
 
 #menu {
+    font-family: sans-serif;
     background-color: rgb(37, 37, 37);
+    color: rgb(189, 192, 194);
+    font-weight: 200;
 }
 
-#menu > a {
+#menu a {
     text-decoration: none;
+    font-size: 200%;
+    color: rgb(189, 192, 194);
 }
 
 #menu li {
     list-style-type: none;
+    text-align: center;
 }
 
+#menu a:hover {
+    background-color: rgb(189, 192, 194);
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+    text-decoration: rgb(37, 37, 37);
+    border: 3px double rgb(37, 37, 37);
+}
+
+/*
 @media screen and (max-width:900px) {
     body {
         width: 87%;
@@ -51,4 +67,4 @@ p {
         bottom: 5px;
         right: 50px
     }
-}
+}*/
