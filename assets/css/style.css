@@ -30,22 +30,24 @@ p {
 }
 
 #menu {
+    height: auto;
     font-family: sans-serif;
     background-color: rgb(37, 37, 37);
     color: rgb(189, 192, 194);
     font-weight: 200;
+    text-align: center;
+    padding: 10px 0;
 }
+
 
 #menu a {
     text-decoration: none;
     font-size: 200%;
     color: rgb(189, 192, 194);
+    list-style-type: none;
+    margin-right: 40px;
 }
 
-#menu li {
-    list-style-type: none;
-    text-align: center;
-}
 
 #menu a:hover {
     background-color: rgb(189, 192, 194);
@@ -53,6 +55,10 @@ p {
     font-weight: 500;
     text-decoration: rgb(37, 37, 37);
     border: 3px double rgb(37, 37, 37);
+}
+
+.active {
+    border-bottom: 2px double rgb(189, 192, 194);
 }
 
 /*
