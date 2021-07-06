@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Open Sans', 'Oswald', sans-serif;
+    background-color: midnightblue;
+    color: rgb(189, 192, 194);
+    width: 60%;
+    margin: 0 auto;
+    border: 3px double rgb(189, 192, 194);
+    border-color: rgb(189, 192, 194);
+    padding: 5px 10px;
+}
+
+p {
+    font-family: Oswald, sans-serif;
+}
+
+#cover-text h1 {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 300%;
+    font-weight: 400;
+    text-shadow: 0px 5px #000000;
+
+}
+
