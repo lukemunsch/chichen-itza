@@ -3,7 +3,7 @@
 body {
     font-family: 'Open Sans', 'Oswald', sans-serif;
     background-color: rgb(189, 192, 194);
-    color: rgb(189, 192, 194);
+    color: rgb(213, 218, 218);
     margin: 0 auto;
     border: 3px outset rgb(189, 192, 194);
     padding: 5px 0px;
@@ -83,7 +83,7 @@ h2, h3 {
     #outerwrapper {
         max-width: 70%;
         margin: 0 auto;
-        background-color: midnightblue;
+        background-color: rgb(49, 118, 245);
         border: 3px double rgb(189, 192, 194);
     }
 }
