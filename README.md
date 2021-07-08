@@ -8,7 +8,7 @@ Chichen Itza
 
         Hero Image + Overlay - 
 
-        Nav bar - 
+        Nav bar - The nav bar is linked to all three pages and is responsive to the size of the viewport. With the order of links from higest relevance to lowest, this set of links is positioned consistently in the same place - below the hero image for the page - so it is easier to navigate the site.
 
         Summary - 
 
