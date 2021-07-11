@@ -49,7 +49,6 @@ nav a {
     margin-right: 40px;
 }
 
-
 nav a:hover {
     background-color: rgb(189, 192, 194);
     color: rgb(37, 37, 37);
@@ -74,12 +73,17 @@ nav a:focus {
     border-bottom: 2px double rgb(189, 192, 194);
 }
 
-
+.section-wrapper {
+    padding: 0 10px;
+    overflow: hidden;
+}
 
 h2, h3 {
     padding-left: 30px;
     font-size: 300%;
 }
+
+
 
 @media screen and (min-width:900px) {
     #outerwrapper {
@@ -92,6 +96,10 @@ h2, h3 {
 @media screen and (max-width:900px) {
     body {
         width: 87%;
+    }
+
+    #outerwrapper {
+        background-color: rgb(49, 118, 245);
     }
 
     #cover-text h1 {
