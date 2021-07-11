@@ -29,7 +29,7 @@ p {
 
 }
 
-#menu {
+nav {
     height: auto;
     font-family: sans-serif;
     background-color: rgb(37, 37, 37);
@@ -41,7 +41,7 @@ p {
 }
 
 
-#menu a {
+nav a {
     text-decoration: none;
     font-size: 110%;
     color: rgb(189, 192, 194);
@@ -50,7 +50,7 @@ p {
 }
 
 
-#menu a:hover {
+nav a:hover {
     background-color: rgb(189, 192, 194);
     color: rgb(37, 37, 37);
     font-weight: 500;
@@ -60,7 +60,7 @@ p {
     font-style: italic;
 }
 
-#menu a:focus {
+nav a:focus {
     background-color: rgb(189, 192, 194);
     color: rgb(37, 37, 37);
     font-weight: 500;
