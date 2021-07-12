@@ -10,23 +10,37 @@ body {
     text-align: justify;
 }
 
+.outset-border-3px {
+    border: 3px outset rgb(189, 192, 194);
+}
+
+em {
+    font-size: 150%;
+}
+
 p {
     font-family: Oswald, sans-serif;
     letter-spacing: 1px;
     padding: 0 5%;
 }
 
-#cover-text h1 {
+hr {
+    border: 3px outset rgb(213, 218, 218);
+}
+
+span h2, span h3 {
+    text-decoration: rgb(189, 192, 194) underline;
+}
+
+.cover-text {
     font-family: 'Kaushan Script', sans-serif;
     font-size: 400%;
     font-weight: 400;
     text-shadow: 0px 5px #000000;
     float: right;
     letter-spacing: 4px;
-    bottom: 30px;
-    position: absolute;
-    right: 300px;
-
+    bottom: 5px;
+    position: relative;
 }
 
 nav {
@@ -81,9 +95,26 @@ nav a:focus {
 h2, h3 {
     padding-left: 30px;
     font-size: 300%;
+    text-decoration: rgb(189, 192, 194);
 }
 
+.col-sm-9 ul {
+    overflow: hidden;
+    margin-right: 10px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
 
+.responsive {
+    float: right;
+    max-width: 40%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .left-half-column {
+      max-width: 60%;
+  }
 
 @media screen and (min-width:900px) {
     #outerwrapper {
@@ -108,4 +139,14 @@ h2, h3 {
         bottom: 5px;
         right: 50px
     }
+
+    .responsive {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    h2, h3 {
+        padding-left: 15px;
+        font-size: 150%;
+        text-align: center;
 }
