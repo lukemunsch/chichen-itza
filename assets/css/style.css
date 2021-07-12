@@ -113,7 +113,20 @@ h2, h3 {
   }
 
   .left-half-column {
-      max-width: 60%;
+      max-width: 50%;
+      display: inline-block;
+  }
+
+  .right-half-column {
+      max-width: 50%;
+      float: right;
+      display: inline;
+  }
+
+  footer {
+      background:rgb(37, 37, 37);
+      border-top: 3px outset rgb(189, 192, 194);
+      height: 100px;
   }
 
 @media screen and (min-width:900px) {
