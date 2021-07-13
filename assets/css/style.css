@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    display: block;
+    display: inline-block;
 }
 
 .outset-border-3px {
@@ -30,10 +30,6 @@ p {
 
 hr {
     border: 3px outset rgb(213, 218, 218);
-}
-
-span h2, span h3 {
-    text-decoration: rgb(189, 192, 194) underline;
 }
 
 .cover-text {
@@ -99,7 +95,11 @@ nav a:focus {
 h2, h3 {
     padding-left: 30px;
     font-size: 300%;
-    text-decoration: rgb(189, 192, 194);
+}
+
+.clearfix img {
+    margin-right: 40px;
+    margin-top: 60px;
 }
 
 .col-sm-9 ul {
@@ -135,8 +135,9 @@ h2, h3 {
   .travel-left-half {
         background-color: #444444;
         display: inline-block;
+        text-decoration: underline;
         width: 45%;
-        left: 20px;
+        left: 55px;
         margin-left: 10px;
         position: relative;
         float: left;
@@ -144,6 +145,8 @@ h2, h3 {
         text-align: left;
         border-radius: 8px;
         border: 3px outset rgb(189, 192, 194);
+        top: 100px;
+        z-index: 1;
   }
 
   .tourism-right-half {
@@ -151,7 +154,8 @@ h2, h3 {
         background-color: rgb(189, 192, 194);
         display: inline-block;
         width: 45%;
-        right: 20px;
+        text-decoration: underline;
+        right: 60px;
         margin-left: 10px;
         text-align: right;
         position: relative;
@@ -159,6 +163,11 @@ h2, h3 {
         overflow: hidden;
         border-radius: 8px;
         border: 3px outset #444444;
+        margin-bottom: 20px;
+  }
+
+  .tourism-right-half h2 {
+      padding-right: 30px;
   }
 
   footer {
@@ -198,6 +207,9 @@ h2, h3 {
 
     h2, h3 {
         padding-left: 15px;
-        font-size: 150%;
+        font-size: 300%;
         text-align: center;
+    }
+
+    
 }
