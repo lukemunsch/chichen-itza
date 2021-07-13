@@ -149,7 +149,7 @@ h2, h3 {
         margin-left: 10px;
         position: relative;
         float: left;
-        overflow: hidden;
+        overflow: visible;
         text-align: left;
         border-radius: 8px;
         border: 3px outset rgb(189, 192, 194);
@@ -168,10 +168,11 @@ h2, h3 {
         text-align: right;
         position: relative;
         float: right;
-        overflow: hidden;
+        overflow: visible;
         border-radius: 8px;
         border: 3px outset #444444;
         margin-bottom: 20px;
+        padding-left: 20px;
   }
 
   .tourism-right-half h2 {
