@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
 
+#outerwrapper {
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: rgb(49, 118, 245);
+    border: 5px outset rgb(189, 192, 194);
+}
+
 body {
     font-family: 'Open Sans', 'Oswald', sans-serif;
     background-color: rgb(189, 192, 194);
     color: rgb(213, 218, 218);
     margin: 0 auto;
-    border: 3px outset rgb(189, 192, 194);
+    border: 5px outset rgb(189, 192, 194);
     padding: 5px 0px;
     text-align: justify;
 }
@@ -15,7 +22,7 @@ section {
 }
 
 .outset-border-3px {
-    border: 3px outset rgb(189, 192, 194);
+    border: 5px outset rgb(189, 192, 194);
 }
 
 em {
@@ -29,7 +36,7 @@ p {
 }
 
 hr {
-    border: 3px outset rgb(213, 218, 218);
+    border: 5px outset rgb(213, 218, 218);
 }
 
 .cover-text {
@@ -51,7 +58,7 @@ nav {
     font-weight: 400;
     text-align: center;
     padding: 10px 5px;
-    border: 1px outset rgb(189, 192, 194);
+    border: 5px outset rgb(189, 192, 194);
 }
 
 
@@ -68,7 +75,7 @@ nav a:hover {
     color: rgb(37, 37, 37);
     font-weight: 500;
     text-decoration: rgb(37, 37, 37);
-    border: 3px outset rgb(104, 104, 104);
+    border: 5px outset rgb(104, 104, 104);
     padding: 5px;
     font-style: italic;
 }
@@ -78,7 +85,7 @@ nav a:focus {
     color: rgb(37, 37, 37);
     font-weight: 500;
     text-decoration: rgb(37, 37, 37);
-    border: 3px inset rgb(104, 104, 104);
+    border: 5px inset rgb(104, 104, 104);
     padding: 5px;
     font-style: italic;
 }
@@ -122,6 +129,7 @@ h2, h3 {
       float: left;
       position: relative;
       overflow: visible;
+      left: 2rem;
   }
 
 
@@ -176,14 +184,8 @@ h2, h3 {
       height: 100px;
   }
 
-@media screen and (min-width:900px) {
-    #outerwrapper {
-        max-width: 70%;
-        margin: 0 auto;
-        background-color: rgb(49, 118, 245);
-        border: 3px double rgb(189, 192, 194);
-    }
-}
+
+
 @media screen and (max-width:900px) {
     body {
         width: 87%;
@@ -211,5 +213,11 @@ h2, h3 {
         text-align: center;
     }
 
-    
+    .travel-left-half {
+        left: auto;
+    }
+
+    .tourism-right-half {
+        right: auto;
+    }
 }
