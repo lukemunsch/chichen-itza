@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
 
-#outerwrapper {
-    max-width: 70%;
-    margin: 0 auto;
-    background-color: rgb(49, 118, 245);
-    border: 5px outset rgb(189, 192, 194);
-}
-
 body {
     font-family: 'Open Sans', 'Oswald', sans-serif;
-    background-color: rgb(189, 192, 194);
+    background-color: rgb(49, 118, 245);
     color: rgb(213, 218, 218);
     margin: 0 auto;
     border: 5px outset rgb(189, 192, 194);
     padding: 5px 0px;
-    text-align: justify;
 }
 
 section {
@@ -30,9 +22,10 @@ em {
 }
 
 p {
-    font-family: Oswald, sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     padding: 0 5%;
+    text-align: justify;
 }
 
 hr {
@@ -50,9 +43,13 @@ hr {
     position: relative;
 }
 
+.text-underline {
+    text-decoration: 3px underline;
+}
+
 nav {
     height: auto;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgb(37, 37, 37);
     color: rgb(189, 192, 194);
     font-weight: 400;
@@ -104,9 +101,8 @@ h2, h3 {
     font-size: 300%;
 }
 
-.clearfix img {
-    margin-right: 40px;
-    margin-top: 60px;
+.section_map-img_float-right {
+    
 }
 
 .col-sm-9 ul {
@@ -121,6 +117,7 @@ h2, h3 {
     max-width: 40%;
     height: auto;
     overflow: hidden;
+    right: 15px;
   }
 
   .left-half-column {
@@ -142,10 +139,9 @@ h2, h3 {
 
   .travel-left-half {
         background-color: #444444;
-        display: inline-block;
-        text-decoration: underline;
+        display: block;
         width: 45%;
-        left: 55px;
+        left: 50px;
         margin-left: 10px;
         position: relative;
         float: left;
@@ -160,10 +156,9 @@ h2, h3 {
   .tourism-right-half {
         color:#444444;
         background-color: rgb(189, 192, 194);
-        display: inline-block;
+        display: block;
         width: 45%;
-        text-decoration: underline;
-        right: 60px;
+        right: 50px;
         margin-left: 10px;
         text-align: right;
         position: relative;
@@ -175,8 +170,13 @@ h2, h3 {
         padding-left: 20px;
   }
 
-  .tourism-right-half h2 {
-      padding-right: 30px;
+  .travel-left-half h3 {
+        font-size: 150%;
+  }
+
+  .tourism-right-half h3 {
+        padding-right: 30px;
+        font-size: 150%;
   }
 
   footer {
@@ -184,41 +184,3 @@ h2, h3 {
       border-top: 3px outset rgb(189, 192, 194);
       height: 100px;
   }
-
-
-
-@media screen and (max-width:900px) {
-    body {
-        width: 87%;
-    }
-
-    #outerwrapper {
-        background-color: rgb(49, 118, 245);
-    }
-
-    #cover-text h1 {
-        font-size: 230%;
-        letter-spacing: 1px;
-        bottom: 5px;
-        right: 50px
-    }
-
-    .responsive {
-        overflow: hidden;
-        text-align: center;
-    }
-
-    h2, h3 {
-        padding-left: 15px;
-        font-size: 300%;
-        text-align: center;
-    }
-
-    .travel-left-half {
-        left: auto;
-    }
-
-    .tourism-right-half {
-        right: auto;
-    }
-}
