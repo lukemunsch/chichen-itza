@@ -101,10 +101,6 @@ h2, h3 {
     font-size: 300%;
 }
 
-.section_map-img_float-right {
-    
-}
-
 .col-sm-9 ul {
     overflow: hidden;
     margin-right: 10px;
@@ -112,13 +108,10 @@ h2, h3 {
     letter-spacing: 1px;
 }
 
-.responsive {
-    float: right;
-    max-width: 40%;
-    height: auto;
-    overflow: hidden;
-    right: 15px;
-  }
+.col-sm-6 img {
+    max-width: 100%;
+    max-height: 30rem;
+}
 
   .left-half-column {
       max-width: 50%;
