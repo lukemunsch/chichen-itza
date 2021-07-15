@@ -11,6 +11,7 @@ body {
 section {
     display: inline-block;
     width: 100%;
+    padding: 10px 0;
 }
 
 .outset-border-3px {
@@ -172,7 +173,7 @@ h2, h3 {
         display: block;
         width: 45%;
         right: 45px;
-        margin-left: 10px;
+        margin-right: 10px;
         text-align: right;
         position: relative;
         float: right;
