@@ -21,7 +21,7 @@ em {
     font-size: 150%;
 }
 
-p {
+p, ul {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     padding: 0 5%;
@@ -55,7 +55,7 @@ hr {
     font-weight: 400;
     text-shadow: 0px 10px #000000;
     letter-spacing: 4px;
-    bottom: 30px;
+    bottom: 5px;
     right: 30px;
     position: absolute;
 }
