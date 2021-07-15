@@ -173,7 +173,7 @@ h2, h3 {
   }
 
   footer {
-      background:rgb(37, 37, 37);
+      background: url(../images/chichen-itza-footer.jpg) bottom center / no-repeat;
       border-top: 3px outset rgb(189, 192, 194);
       height: 100px;
   }
