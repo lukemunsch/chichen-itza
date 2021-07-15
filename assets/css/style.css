@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
 
-html, body {
+body {
     font-family: 'Open Sans', 'Oswald', sans-serif;
     background-color: rgb(49, 118, 245);
-    color: rgb(213, 218, 218);  
+    color: rgb(213, 218, 218);
+    margin: 0 auto;
     border: 5px outset rgb(189, 192, 194);
-    padding: 0px;
-    width: 100%;
-    overflow-x: hidden;
+    padding: 5px 0px;
 }
 
 section {
     display: inline-block;
+   
 }
 
 .outset-border-3px {
@@ -92,6 +92,7 @@ nav a:focus {
 }
 
 .section-wrapper {
+    padding: 0 10px;
     overflow: hidden;
 }
 
@@ -108,10 +109,71 @@ h2, h3 {
 }
 
 .col-sm-6 img {
-        max-width: 90%;
-        max-height: 30rem;
-        margin-left: 10px;
+    max-width: 100%;
+    max-height: 30rem;
 }
+
+  .left-half-column {
+      max-width: 50%;
+      display: inline-block;
+      float: left;
+      position: relative;
+      overflow: visible;
+      left: 2rem;
+  }
+
+
+  .right-half-column {
+      max-width: 50%;
+      float: right;
+      display: inline-block;
+      position: relative;
+  }
+
+  .watermark-background-image {
+        width: 100%;
+        background: url(../images/observatory-close-landscape.JPG) center center/ cover no-repeat;
+  }
+
+  .watermark-background-image h2 {
+      color: #444444;
+  }
+
+  .watermark-background-image img {
+      opacity: 0.4;
+  }
+
+  .travel-left-half {
+        background-color: #444444;
+        display: block;
+        width: 45%;
+        left: 50px;
+        margin-left: 10px;
+        position: relative;
+        float: left;
+        overflow: visible;
+        text-align: left;
+        border-radius: 8px;
+        border: 3px outset rgb(189, 192, 194);
+        top: 100px;
+        z-index: 1;
+  }
+
+  .tourism-right-half {
+        color:#444444;
+        background-color: rgb(189, 192, 194);
+        display: block;
+        width: 45%;
+        right: 50px;
+        margin-left: 10px;
+        text-align: right;
+        position: relative;
+        float: right;
+        overflow: visible;
+        border-radius: 8px;
+        border: 3px outset #444444;
+        margin-bottom: 20px;
+  }
 
   .travel-left-half h3 {
         font-size: 150%;
@@ -122,11 +184,19 @@ h2, h3 {
         font-size: 150%;
   }
 
-  footer {
-      border-top: 3px outset rgb(189, 192, 194);
-      height: 150px;
+  .shrink-text {
+      width: 80%;
+      float: right;
   }
 
-  .footer-background-image {
-      background: rgb(37, 37, 37) url(../images/chichen-itza-footer.jpg) bottom center / cover no-repeat;
+  footer {
+      background:rgb(37, 37, 37) url(../images/chichen-itza-footer.jpg) bottom center /  cover no-repeat;
+      border-top: 3px outset rgb(189, 192, 194);
+      height: 100px;
+  }
+
+  @media screen and (min-width:1000px) {
+      .shrink-text {
+          width: 100%;
+      }
   }
