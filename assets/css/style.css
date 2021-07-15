@@ -54,7 +54,7 @@ hr {
     width: 100%;
     font-family: 'Kaushan Script', sans-serif;
     font-weight: 400;
-    text-shadow: 0px 10px #444444;
+    text-shadow: 0px 5px #444444;
     letter-spacing: 4px;
     bottom: 5px;
     right: 30px;
@@ -117,9 +117,18 @@ h2, h3 {
       max-width: 50%;
       display: inline-block;
       float: left;
+      text-align: right;
       position: relative;
       overflow: visible;
       left: 2rem;
+  }
+
+  ..left-half-column h3 {
+      padding-left: 0px;
+  }
+
+  .left-half-column ul {
+      list-style-type: none;
   }
 
 
@@ -225,23 +234,35 @@ h2, h3 {
 
 
 @media screen and (max-width:1000px){
-
       .masonry-gallery {
           column-count: 3;
       }
   }
 
   @media screen and (max-width:700px) {
+      .hero-image {
+          height: 200px;
+      }
+
+
+      h3 {
+        padding-left: 10px;
+      }
+
       .masonry-gallery {
           column-count: 2;
       }
 
       .cover-text h1 {
-          font-size: 200%;
+          font-size: 300%;
       }
 
       nav a {
           font-size: 100%;
+      }
+
+      .left-half-column {
+          width: 45%;
       }
 
       .travel-left-half {
@@ -254,6 +275,11 @@ h2, h3 {
 
       .tourism-right-half h3 {
           text-align: right;
-
       }
+    }
+
+    @media screen and (max-width:400) {
+          h1 {
+            font-size: 200%;
+        }
     }
