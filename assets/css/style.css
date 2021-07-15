@@ -11,7 +11,7 @@ body {
 
 section {
     display: inline-block;
-   
+    width: 100%;
 }
 
 .outset-border-3px {
