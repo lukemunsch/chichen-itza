@@ -111,67 +111,7 @@ h2, h3 {
         max-width: 90%;
         max-height: 30rem;
         margin-left: 10px;
-        
 }
-
-  .left-half-column {
-      max-width: 50%;
-      display: inline-block;
-      float: left;
-      position: relative;
-      overflow: visible;
-      left: 2rem;
-  }
-
-
-  .right-half-column {
-      max-width: 50%;
-      float: right;
-      display: inline-block;
-      position: relative;
-  }
-
-  .travel-left-half {
-        background-color: #444444;
-        display: block;
-        width: 45%;
-        left: 50px;
-        margin-left: 10px;
-        position: relative;
-        float: left;
-        overflow: visible;
-        text-align: left;
-        border-radius: 3px;
-        border: 3px outset rgb(189, 192, 194);
-        top: 100px;
-        z-index: 1;
-  }
-
-  .tourism-right-half {
-        color:#444444;
-        background-color: rgb(189, 192, 194);
-        display: block;
-        width: 50%;
-        right: 0px;
-        margin-left: 10px;
-        text-align: right;
-        position: relative;
-        float: right;
-        overflow: visible;
-        border-radius: 3px;
-        border: 3px outset #444444;
-        margin-bottom: 20px;
-        padding-left: 20px;
-  }
-
-  .travel-left-half h3 {
-        font-size: 150%;
-  }
-
-  .tourism-right-half h3 {
-        padding-right: 30px;
-        font-size: 150%;
-  }
 
   footer {
       border-top: 3px outset rgb(189, 192, 194);
