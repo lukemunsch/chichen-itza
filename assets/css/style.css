@@ -6,7 +6,6 @@ body {
     color: rgb(213, 218, 218);
     margin: 0 auto;
     border: 5px outset rgb(189, 192, 194);
-    padding: 5px 0px;
 }
 
 section {
@@ -32,15 +31,33 @@ hr {
     border: 5px outset rgb(213, 218, 218);
 }
 
-.cover-text {
-    font-family: 'Kaushan Script', sans-serif;
-    font-size: 400%;
-    font-weight: 400;
-    text-shadow: 0px 5px #000000;
-    float: right;
-    letter-spacing: 4px;
-    bottom: 5px;
+.section-header {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
     position: relative;
+}
+
+#hero-image {
+    height: 450px;
+    width: 100%;
+    background: url(../images/kukulkan-hero-image.JPG) top center / cover no-repeat;
+    position: relative;
+}    
+
+.cover-text h1 {
+    float: right;
+    font-size: 500%;
+}
+.cover-text {
+    width: 100%;
+    font-family: 'Kaushan Script', sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 10px #000000;
+    letter-spacing: 4px;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
 }
 
 .text-underline {
@@ -89,11 +106,6 @@ nav a:focus {
 
 .active {
     border-bottom: 2px double rgb(189, 192, 194);
-}
-
-.section-wrapper {
-    padding: 0 10px;
-    overflow: hidden;
 }
 
 h2, h3 {
