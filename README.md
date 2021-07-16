@@ -4,11 +4,11 @@
 
 ## **Wireframes**
 
-![Index Page Here](https://i.imgur.com/r16x3Y3.png)
+[Index Page Here](https://i.imgur.com/r16x3Y3.png)
 
-![Facts Page Here](https://i.imgur.com/HJCCgOP.png)
+[Facts Page Here](https://i.imgur.com/HJCCgOP.png)
 
-![Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
+[Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
 
 ## Overview
 
@@ -40,11 +40,12 @@
 
 ### Style Choices
 
-        I have chosen to use a consistant format across the three pages of the site; background 
-        colour similar to the blue sky from the pictures taken of Chichén-Itzá, text and block 
-        element colors taken from the stone and building colors from the pictures, and the border 
-        style of outset creating the appearance of 'tiers' to the element similar to the building 
-        style of the site that look like steps up the building.
+        I have chosen to use a consistant format across the three pages of the site; 
+        
+        - background colour similar to the blue sky from the pictures taken of Chichén-Itzá, 
+        - text and block element colors taken from the stone and building colors from the pictures, 
+        - the border style of outset creating the appearance of 'tiers' to the element similar to 
+        the building style of the site that look like steps up the building.
 
 ### Hero Image + Overlay
 
@@ -53,7 +54,11 @@
         with Chichén-Itzá. This led me to use it as the responsive header image for the site 
         on all three pages.
 
-        The overlay text
+        The overlay text is in a curvey style text in the same color as the body of the site.
+        There is text shadow to help separate the writing from the similar color background as 
+        the site becomes responsive and the text moves to different contracts against the background.
+        The position of the writing as the site responds to viewport width requires the text to change
+        size in order to not distort as much as possible.
 
 ### Nav bar
 
