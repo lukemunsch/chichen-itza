@@ -152,7 +152,8 @@ h1, h2, h3 {
       float: right;
       right: 10px;
       width: 40%;
-    display: inline-block;
+      display: inline-block;
+      margin: 0 auto;
   }
 
   .map-right-inner img {
@@ -167,7 +168,6 @@ h1, h2, h3 {
   .watermark-background-image h2 {
       color: #444444;
   }
-
   
   .travel-left-half {
         background-color: #444444;
