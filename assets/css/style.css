@@ -118,6 +118,10 @@ h2, h3 {
     font-size: 300%;
 }
 
+h1, h2, h3 {
+    font-weight: 900;
+}
+
   .left-half-column {
       max-width: 50%;
       display: inline-block;
@@ -128,8 +132,8 @@ h2, h3 {
       left: 2rem;
   }
 
-  ..left-half-column h3 {
-      padding-left: 0px;
+  .left-half-column h3 {
+      padding-right: 30px;
   }
 
   .left-half-column ul {
