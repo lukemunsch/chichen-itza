@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
 
 body {
+    width: 100vw;
     font-family: 'Open Sans', 'Oswald', sans-serif;
     background-color: rgb(49, 118, 245);
     color: rgb(213, 218, 218);
@@ -34,6 +35,7 @@ p, ul {
 }
 
 hr {
+    margin: 0;
     border: 5px outset rgb(213, 218, 218);
 }
 
@@ -42,6 +44,7 @@ hr {
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding: 0;
 }
 
 #hero-image {
@@ -86,7 +89,7 @@ nav a {
     font-size: 200%;
     color: rgb(189, 192, 194);
     list-style-type: none;
-    margin-right: 60px;
+    margin: 0 30px;
 }
 
 nav a:hover {
@@ -123,7 +126,7 @@ h1, h2, h3 {
 }
 
   .left-half-column {
-      max-width: 50%;
+      max-width: 45%;
       display: inline-block;
       float: left;
       text-align: right;
@@ -142,7 +145,7 @@ h1, h2, h3 {
 
 
   .right-half-column {
-      max-width: 50%;
+      max-width: 45%;
       float: right;
       display: inline-block;
       position: relative;
@@ -167,6 +170,14 @@ h1, h2, h3 {
 
   .watermark-background-image h2 {
       color: #444444;
+  }
+
+  h2.text-underline {
+      padding-left: 50px;
+  }
+
+  .centered-text h2 {
+      padding: 0;
   }
   
   .travel-left-half {
@@ -285,6 +296,12 @@ h1, h2, h3 {
       .tourism-right-half h3 {
           text-align: right;
       }
+
+      h2.text-underline {
+          padding: 0;
+          text-align: center;
+      }
+
     }
 
     @media screen and (max-width:400) {

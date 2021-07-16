@@ -43,7 +43,8 @@
         I have chosen to use a consistant format across the three pages of the site; 
         
         - background colour similar to the blue sky from the pictures taken of Chichén-Itzá, 
-        - text and block element colors taken from the stone and building colors from the pictures, 
+        - text and block element colors taken from the stone and building colors from the pictures,
+           to keep it easy on the eyes without harsh color contrasts. 
         - the border style of outset creating the appearance of 'tiers' to the element similar to 
         the building style of the site that look like steps up the building.
 
@@ -76,8 +77,14 @@
         a quick factual statement regarding what Chichén-Itzá is as well as why it is being so 
         popular.
 
+        Centralised text in temple structure style to keep consistant with the style for the Chichén-Itzá 
+        site.
+
 ### Map + Aside
 
+        This section is a text description of the map positioned aside the text.
+        This pairing allows the user to see the location of Chichén-Itzá in relation to other 
+        parts of Mexico
 
 ### Travel + tourism
 
