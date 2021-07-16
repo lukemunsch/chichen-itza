@@ -67,8 +67,14 @@
         set of links is positioned consistently in the same place - below the hero image 
         for the page - so it is easier to navigate the site.
 
+        The nav bar will be responsive and as the viewport changes size the elements within it 
+        will change to accomodate the smaller areas.
+
 ### Summary
 
+        This is just a brief overview of the site, including the pronunciation of the name and 
+        a quick factual statement regarding what Chichén-Itzá is as well as why it is being so 
+        popular.
 
 ### Map + Aside
 

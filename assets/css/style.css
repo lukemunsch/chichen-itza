@@ -14,6 +14,11 @@ section {
     padding: 10px 0;
 }
 
+.centered-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .outset-border-3px {
     border: 5px outset rgb(189, 192, 194);
 }
