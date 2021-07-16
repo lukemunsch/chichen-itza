@@ -1,8 +1,8 @@
-#**Chichen Itza**
+# **Chichen Itza**
 
-##**Link to live site**
+## **Link to live site**
 
-##**Wireframes**
+## **Wireframes**
 
 [Index Page Here](https://i.imgur.com/r16x3Y3.png)
 
@@ -10,7 +10,7 @@
 
 [Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
 
-##Overview
+## Overview
 
     The Chichén-Itzá site is designed to give users a brief overview about the historic 
     site and information about the relevance to the country in regards to bringing in 
@@ -22,7 +22,7 @@
     to experience it for themselves.
 
 
-##User Stories
+## User Stories
 
     On a user's first visit, Chichén-Itzá will be a brief overview about the historic 
     site with images related to the site and a few details rearging the ruins. There will
@@ -36,9 +36,9 @@
     On further visits to the site, the user will see Chichén-Itzá from my viewpoint based on 
     the images I have taken and the exploration of Chichén-Itzá through my perspective.
 
-##Features
+## Features
 
-###Style Choices
+### Style Choices
 
         I have chosen to use a consistant format across the three pages of the site; background 
         colour similar to the blue sky from the pictures taken of Chichén-Itzá, text and block 
@@ -46,7 +46,7 @@
         style of outset creating the appearance of 'tiers' to the element similar to the building 
         style of the site that look like steps up the building.
 
-###Hero Image + Overlay
+### Hero Image + Overlay
 
         The image used at the top of the page is the famous Temple of Kukulkan; the Feathered 
         Serpent of Chichén-Itzá. This is the most famous building at the ruins and synonymous
@@ -55,31 +55,31 @@
 
         The overlay text
 
-###Nav bar
+### Nav bar
 
         The nav bar is linked to all three pages and is responsive to the size 
         of the viewport. With the order of links from higest relevance to lowest, this 
         set of links is positioned consistently in the same place - below the hero image 
         for the page - so it is easier to navigate the site.
 
-###Summary
+### Summary
 
 
-###Map + Aside
+### Map + Aside
 
 
-###Travel + tourism
+### Travel + tourism
 
 
-###Footer
+### Footer
 
 
-#Second Hero Image
+### Second Hero Image
 
 
-#Facts and images
+### Facts and images
 
 
-#Gallery page
+### Gallery page
 
 
