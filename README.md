@@ -2,9 +2,13 @@ Chichen Itza
 
 Link to live site - 
 
-Wireframe index page
+Wireframes
 
-[Imgur](https://i.imgur.com/r16x3Y3.png)
+[Index Page Here](https://i.imgur.com/r16x3Y3.png)
+
+[Facts Page Here](https://i.imgur.com/HJCCgOP.png)
+
+[Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
 
     Overview
 
