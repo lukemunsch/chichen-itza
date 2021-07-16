@@ -1,14 +1,14 @@
-# **Chichen Itza**
+# **Chichén-Itzá - The Mayan ruins of Mexico**
 
 ## **Link to live site**
 
 ## **Wireframes**
 
-[Index Page Here](https://i.imgur.com/r16x3Y3.png)
+![Index Page Here](https://i.imgur.com/r16x3Y3.png)
 
-[Facts Page Here](https://i.imgur.com/HJCCgOP.png)
+![Facts Page Here](https://i.imgur.com/HJCCgOP.png)
 
-[Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
+![Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
 
 ## Overview
 
