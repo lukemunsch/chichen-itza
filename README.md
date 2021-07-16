@@ -83,17 +83,26 @@
 ### Map + Aside
 
         This section is a text description of the map positioned aside the text.
-        This pairing allows the user to see the location of Chichén-Itzá in relation to other 
-        parts of Mexico
+        This pairing allows the user to see the location of Chichén-Itzá in relation 
+        to other parts of Mexico.
+
+        The map image was picked out from google image search of 'map of Chichén-Itzá'. 
+        This is also styled in the 'RAISED-BLOCK' style similar to the rest of the elements.
 
 ### Travel + tourism
 
-
+        * The two sections are layered on top of the background image which is a key construct
+          of Chichén-Itzá, the observatory
+        * The two text sections blocked off in color are designed to overlap depending on the 
+          size of the screen. 
+        * They are styled in the outset border to appear tiered.
+        * the header is also in the same color scheme and will centralise above the blocks when
+          the screen is smaller than 700 pixels.
+        
 ### Footer
 
-
-### Second Hero Image
-
+        The footer is featured on two of the three pages and will give the users a quick glance
+        at the author of the page with an image and text description; name and profession.
 
 ### Facts and images
 

@@ -35,6 +35,7 @@ p, ul {
 }
 
 hr {
+    opacity: 1;
     margin: 0;
     border: 5px outset rgb(213, 218, 218);
 }
@@ -165,6 +166,7 @@ h1, h2, h3 {
 
   .watermark-background-image {
         width: 100%;
+        border: 5px outset rgb(189, 192, 194);
         background: url(../images/observatory-close-landscape.JPG) center center/ cover no-repeat;
   }
 
