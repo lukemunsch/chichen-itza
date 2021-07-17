@@ -60,11 +60,17 @@ hr {
     font-size: 500%;
 }
 
+div.cover-text {
+    height: auto;
+    width: auto;
+    background-color: rgba(37, 37, 37, .4);
+    border: 5px outset rgb(104, 104, 104);
+}
+
 .cover-text {
     width: 100%;
     font-family: 'Kaushan Script', sans-serif;
     font-weight: 400;
-    text-shadow: 0px 5px #444444;
     letter-spacing: 4px;
     bottom: 5px;
     right: 30px;
@@ -226,7 +232,6 @@ h1, h2, h3 {
   }
 
   .shrink-text {
-      width: 80%;
       float: right;
   }
 
@@ -308,82 +313,58 @@ h1, h2, h3 {
       width: 100%;
   }
 
-  @media screen and (min-width:1000px) {
+  @media screen and (max-width:1000px) {
       .shrink-text {
-          width: 100%;
-      }  
-      
-      
-  }
-
-
-
-@media screen and (max-width:1000px){
-      .masonry-gallery {
-          column-count: 3;
-      }
-
-      .image-tray {
-          margin-left: 2%;
+          width: 80%;
       }
 
       .footer_text-right {
           width: 40%;
+          text align-items: left;
       }
 
+      .image-tray {
+          margin-left: 5%;
+      }
   }
 
-  @media screen and (max-width:700px) {
-      .hero-image {
-          height: 200px;
-      }
-
-
-      h3 {
-        padding-left: 10px;
-      }
-
-      .masonry-gallery {
-          column-count: 2;
-      }
-
-      .cover-text h1 {
-          font-size: 300%;
-      }
-
-      nav a {
-          font-size: 100%;
-      }
-
-      .travel-left-half {
-          left: 5px;
-      }
-
-      .tourism-right-half {
-          right: 5px;
-      }
-
-      .tourism-right-half h3 {
-          text-align: right;
-      }
-
-      h2.text-underline {
-          padding: 0;
-          text-align: center;
-      }
-
+  @media screen and (max-width:600px) {
+    .section-header {
+        height: 200px;
     }
 
-    @media screen and (max-width:400px) {
-        .cover-text h1 {
-            font-size: 200%;
-        }
-
-        nav a {
-            margin: 0 10px;
-        }
-
-        .left-half-column h3 {
-            font-size: 200%;
-        }
+    .cover-text {
+        text-shadow: ;
     }
+
+    nav a {
+        font-size: 150%;
+        margin: 0 10px;
+    }
+
+    .cover-text h1 {
+        font-size: 175%;
+    }
+
+    .travel-left-half {
+        margin-left: 2%;
+        left: 5px;
+    }
+
+    .travel-left-half h3 {
+        font-size: 100%;
+    }
+
+    .tourism-right-half {
+        margin: 2%;
+        right: 5px;
+    }
+    .tourism-right-half h3 {
+        font-size: 100%;
+    }
+
+    .shrink-text {
+        width: 100%;
+    }
+
+  }
