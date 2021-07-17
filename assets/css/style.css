@@ -146,10 +146,11 @@ h1, h2, h3 {
 
 
   .right-half-column {
-      max-width: 45%;
+      max-width: 50%;
       float: right;
       display: inline-block;
       position: relative;
+      text-align: left;
   }
 
   .map-right-outer {
@@ -239,13 +240,13 @@ h1, h2, h3 {
       height: 300px;
   }
 
-  footer > div {
+  .image-tray {
+      width: 30%;
       display: inline-block;
+      position: relative;
+      margin-left: 10%;
   }
 
-  .footer_text {
-      
-  }
 
   #white-background {
       font-size: 170%;
@@ -254,7 +255,6 @@ h1, h2, h3 {
       width: 100px;
       color: rgb(37, 37, 37);
       top: 20px;
-      margin-left: 30%;
       padding-top: 25px;
       text-align: center;
       position: absolute;
@@ -264,12 +264,11 @@ h1, h2, h3 {
   .round-image {
       border: 5px outset rgb(189, 192, 194);
       border-radius: 50%;
-      
+      display: inline-block;
   }
 
   .author-image {
       height: 270px;
-      margin-top: 10px;
       border: 5px outset rgb(189, 192, 194);
       position: absolute;
   }
@@ -278,6 +277,24 @@ h1, h2, h3 {
       margin-left: 60px;
       border-radius: 20%;
   }
+
+  .footer_text-right {
+      width: 60%;
+      display: inline-block;
+      float: right;
+      padding-top: 3rem;
+      margin-right: 3rem;
+  }
+
+  .footer_text-right h4 {
+      font-weight: 300;
+      font-size: 300%;
+  }
+
+  .footer_text-right p {
+      letter-spacing: 3px;
+  }
+
 
   .masonry-gallery {
       clear: both;
@@ -304,6 +321,15 @@ h1, h2, h3 {
       .masonry-gallery {
           column-count: 3;
       }
+
+      .image-tray {
+          margin-left: 2%;
+      }
+
+      .footer_text-right {
+          width: 40%;
+      }
+
   }
 
   @media screen and (max-width:700px) {
@@ -328,10 +354,6 @@ h1, h2, h3 {
           font-size: 100%;
       }
 
-      .left-half-column {
-          width: 45%;
-      }
-
       .travel-left-half {
           left: 5px;
       }
@@ -353,6 +375,6 @@ h1, h2, h3 {
 
     @media screen and (max-width:400) {
           h1 {
-            font-size: 200%;
+            font-size: 100%;
         }
     }
