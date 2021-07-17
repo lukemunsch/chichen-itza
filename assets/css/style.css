@@ -59,6 +59,7 @@ hr {
     float: right;
     font-size: 500%;
 }
+
 .cover-text {
     width: 100%;
     font-family: 'Kaushan Script', sans-serif;
@@ -373,8 +374,16 @@ h1, h2, h3 {
 
     }
 
-    @media screen and (max-width:400) {
-          h1 {
-            font-size: 100%;
+    @media screen and (max-width:400px) {
+        .cover-text h1 {
+            font-size: 200%;
+        }
+
+        nav a {
+            margin: 0 10px;
+        }
+
+        .left-half-column h3 {
+            font-size: 200%;
         }
     }
