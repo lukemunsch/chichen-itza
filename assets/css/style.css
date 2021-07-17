@@ -228,25 +228,55 @@ h1, h2, h3 {
       float: right;
   }
 
+  .relative-section {
+      width: 100%;
+      position: relative;
+  }
+
   footer {
       background:rgb(37, 37, 37) url(../images/chichen-itza-footer.jpg) bottom center /  cover no-repeat;
       border-top: 3px outset rgb(189, 192, 194);
-      height: 150px;
+      height: 300px;
+  }
+
+  footer > div {
+      display: inline-block;
+  }
+
+  .footer_text {
+      
   }
 
   #white-background {
+      font-size: 170%;
       background-color: white;
-      height: 70px;
-      width: 70px;
+      height: 100px;
+      width: 100px;
       color: rgb(37, 37, 37);
-      margin-top: 10%;
+      top: 20px;
       margin-left: 30%;
+      padding-top: 25px;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
   }
 
   .round-image {
+      border: 5px outset rgb(189, 192, 194);
       border-radius: 50%;
-      text-align: center;
-      padding-top: 20px;
+      
+  }
+
+  .author-image {
+      height: 270px;
+      margin-top: 10px;
+      border: 5px outset rgb(189, 192, 194);
+      position: absolute;
+  }
+
+  footer img {
+      margin-left: 60px;
+      border-radius: 20%;
   }
 
   .masonry-gallery {
