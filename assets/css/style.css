@@ -301,6 +301,18 @@ h1, h2, h3 {
       letter-spacing: 3px;
   }
 
+  .facts_left-stack {
+      text-align: right;
+  }
+
+  .facts_right-stack {
+      text-align: left;
+  }
+
+  .facts_central-stack {
+      text-align: central;
+  }
+
 
   .masonry-gallery {
       clear: both;
