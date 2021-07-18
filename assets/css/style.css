@@ -303,15 +303,17 @@ h1, h2, h3 {
   }
 
   .facts_left-stack {
-      width: 40%;
+      width: 45%;
       float: left;
       text-align: right;
+      font-size: 200%;
   }
 
   .facts_right-stack {
-      width: 40%;
+      width: 45%;
       float: right;
       text-align: left;
+      font-size: 200%;
   }
 
   img.facts-page {
@@ -322,12 +324,9 @@ h1, h2, h3 {
     margin-left: 10%;
   }
 
-  .image-right {
-    margin-right: 200px;
-  }
-
   .facts_central-stack {
       width: 60%;
+      display: block;
       text-align: central;
       margin: 0 auto;
   }
