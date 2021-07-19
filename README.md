@@ -140,3 +140,13 @@
         Index Page
 
 ![Index page Validator](assets/images/index-validator.png)
+
+        Facts page
+
+![Facts page Validator](assets/images/facts-validator.png)
+
+        Gallery Page
+
+![Gallery page Validator](assets/images/gallery-validator.png)
+
+
