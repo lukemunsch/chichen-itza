@@ -357,7 +357,7 @@ h1, h2, h3 {
   .masonry-gallery {
       clear: both;
       line-height: 0;
-      column-count: 4;
+      column-count: 6;
       column-gap: 0;
   }
 
@@ -386,6 +386,11 @@ h1, h2, h3 {
       .image-tray {
           margin-left: 5%;
       }
+
+      .masonry-gallery {
+          column-count: 4;
+      }
+
   }
 
   @media screen and (max-width:600px) {
@@ -496,6 +501,10 @@ h1, h2, h3 {
         font-weight: 200;
         font-size: 175%;
         margin-right: 5px;
+    }
+
+    .masonry-gallery {
+        column-count: 2;
     }
 
   }

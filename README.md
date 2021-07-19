@@ -101,12 +101,20 @@
         
 ### Footer
 
-        The footer is featured on two of the three pages and will give the users a quick glance
-        at the author of the page with an image and text description; name and profession.
+        The footer is featured on the bottom of the three pages and will give the users a quick glance
+        at the author of the page with an image and text description; name and profession. An image 
+        with a stamp icon as well as the textual description and job title for viewers information.
 
 ### Facts and images
 
+        This page has a swapping structure with images swapping sides and text opposite ans well 
+        as in between the sections, giving them space like a cluster of buildings at the ruins. 
+        Like the buildings and their decorations, the page is uniform in their structure.
 
 ### Gallery page
+
+        The gallery page is laid out with columns of photos for the viewers to see detailed pictures 
+        from around Chichén-Itzá. Columned gallery will also reposnd to sscreen size by reducing the 
+        number of columns to help the images retain easy view quality. The images dont always correctly aline themselves correctly to the full page nicely, so the footer at the bottom fo the page will give the page a "fixed bottom" instead of tailing off. There are still a few gaps.
 
 
