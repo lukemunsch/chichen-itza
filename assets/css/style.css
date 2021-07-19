@@ -240,14 +240,23 @@ h1, h2, h3 {
       position: relative;
   }
 
+  /*footer section styling*/
+
   footer {
       background:rgb(37, 37, 37) url(../images/chichen-itza-footer.jpg) bottom center /  cover no-repeat;
       border-top: 3px outset rgb(189, 192, 194);
       height: 300px;
   }
 
+  footer hr {
+    width: 60%;
+    padding: 0 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
   .image-tray {
-      width: 30%;
+      width: 20%;
       display: inline-block;
       position: relative;
       margin-left: 10%;
@@ -302,11 +311,18 @@ h1, h2, h3 {
       letter-spacing: 3px;
   }
 
+  /*facts page for styling */
+
+  .paired-container {
+      display: block;
+  }
+
   .facts_left-stack {
       width: 45%;
       float: left;
       text-align: right;
       font-size: 200%;
+      display: inline;
   }
 
   .facts_right-stack {
@@ -314,6 +330,7 @@ h1, h2, h3 {
       float: right;
       text-align: left;
       font-size: 200%;
+      display: inline;
   }
 
   img.facts-page {
@@ -325,12 +342,17 @@ h1, h2, h3 {
   }
 
   .facts_central-stack {
-      width: 60%;
-      display: block;
+      width: 30%;
+      display: inline;
       text-align: central;
-      margin: 0 auto;
   }
 
+  div.centered-text {
+      width: 70%;
+      font-size: 150%;
+  }
+
+/*gallery set up for multiple pictures*/
 
   .masonry-gallery {
       clear: both;
