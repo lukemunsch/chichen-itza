@@ -131,8 +131,12 @@
                 color. I have considered looking into how to overlap the footer over the bottom of the page 
                 without fixing it to the bottom of the page, but that will result in some pictures being cut off or only appearing as a small line with hardly any image.
 
-                The facts page is a cause for concern as the images appearing on the right of the page are unable to push off the right hand side of the 
+                The facts page is a cause for concern as the images appearing on the right of the page are unable to push off the right hand side of the page do not leave the right hand edge; even by adding margins and padding the image is fixed on the right and only pushes a margin outside of the page rather than inside the viewport width.
 
 ## Testing
 
+### HTML
 
+        Index Page
+
+![Index page Validator](assets/images/index-validator.png)
