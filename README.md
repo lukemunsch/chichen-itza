@@ -135,6 +135,8 @@
 
 ## Testing
 
+        Along with the Chichén-Itzá validator checks below for all our pages, I have also been taking full advantage of the inspect and developer tools on chrome browser to help indentify and bereak down any errors and issues i have found. It has been instrumental in helping me arrange and structure the site. Though there are still some errors that i cannot fix, the code i have written has been validated as such, (Results in green line towards bottom of each image)
+
 ### HTML
 
         Index Page Check
@@ -150,6 +152,5 @@
 ![Gallery page Validator](assets/images/gallery-validator.png)
 
         CSS Check
-
 
 ![CSS Validator](assets/images/css-validator.png)
