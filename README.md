@@ -115,6 +115,24 @@
 
         The gallery page is laid out with columns of photos for the viewers to see detailed pictures 
         from around Chichén-Itzá. Columned gallery will also reposnd to sscreen size by reducing the 
-        number of columns to help the images retain easy view quality. The images dont always correctly aline themselves correctly to the full page nicely, so the footer at the bottom fo the page will give the page a "fixed bottom" instead of tailing off. There are still a few gaps.
+        number of columns to help the images retain easy view quality. The images dont always correctly
+         aline themselves correctly to the full page nicely, so the footer at the bottom fo the page 
+         will give the page a "fixed bottom" instead of tailing off. There are still a few gaps.
+
+## Implementations
+
+        The main index page has the most amount of content as this page is the most visited site; 
+        because this page contains most of the elements for the other two pages i have done most 
+        of the testing on the index. There are some sections on the other two pages that do not fall 
+        in line with the tidy style;
+
+                The Gallery has a columned structure but due to the different image sizes and orientation, 
+                they do not form a nice shape, because of this there is some gaps with the background blue
+                color. I have considered looking into how to overlap the footer over the bottom of the page 
+                without fixing it to the bottom of the page, but that will result in some pictures being cut off or only appearing as a small line with hardly any image.
+
+                The facts page is a cause for concern as the images appearing on the right of the page are unable to push off the right hand side of the 
+
+## Testing
 
 

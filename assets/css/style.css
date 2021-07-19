@@ -331,6 +331,7 @@ h1, h2, h3 {
       text-align: left;
       font-size: 200%;
       display: inline;
+      margin
   }
 
   img.facts-page {
@@ -339,6 +340,10 @@ h1, h2, h3 {
 
   .image-left {
     margin-left: 10%;
+  }
+
+  .image-right {
+      margin-right: 10%;
   }
 
   .facts_central-stack {
