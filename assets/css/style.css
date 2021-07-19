@@ -78,7 +78,7 @@ div.cover-text {
 }
 
 .text-underline {
-    text-decoration: 3px underline;
+    text-decoration: underline;
 }
 
 nav {
@@ -335,7 +335,6 @@ h6 {
       text-align: left;
       font-size: 200%;
       display: inline;
-      margin
   }
 
   img.facts-page {
@@ -353,7 +352,7 @@ h6 {
   .facts_central-stack {
       width: 30%;
       display: inline;
-      text-align: central;
+      text-align: center;
   }
 
   div.centered-text {
@@ -405,10 +404,6 @@ h6 {
   @media screen and (max-width:600px) {
     .section-header {
         height: 200px;
-    }
-
-    .cover-text {
-        text-shadow: ;
     }
 
     nav a {

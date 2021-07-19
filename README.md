@@ -137,16 +137,19 @@
 
 ### HTML
 
-        Index Page
+        Index Page Check
 
 ![Index page Validator](assets/images/index-validator.png)
 
-        Facts page
+        Facts page Check
 
 ![Facts page Validator](assets/images/facts-validator.png)
 
-        Gallery Page
+        Gallery Page Check
 
 ![Gallery page Validator](assets/images/gallery-validator.png)
 
+        CSS Check
 
+
+![CSS Validator](assets/images/css-validator.png)
