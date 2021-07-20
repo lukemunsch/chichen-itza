@@ -192,4 +192,12 @@
         namely, the two block divs with travel and tourism. I had some help from the slack pp1 
         group by a user called Matt_Bodden_5p_Lead. He was able to identify a section of my code 
         that was missing a property for the width of the section, even though there was no code 
-        telling it that it shouldn't be 100%
+        telling it that it shouldn't be 100%. He also advised me on the method of adding a 
+        separate div container to the inside of the div container including the text for the 
+        tourism part. After playing around with the idea i have managed to create a responsive 
+        section that can avoid overlapping the travel div over the text in the tourism div.
+
+        There is a stylesheet using bootstrap that i was (mis)informed i should be using. Although 
+        there is now no section of code that includes bootstrap responsive code, it does make slight 
+        changes when i remove it. Bootstrap was the idea of one of my mentors but i have since 
+        learnt that it is not required for Chcién-Itzá.
