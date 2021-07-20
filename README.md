@@ -129,13 +129,21 @@
                 The Gallery has a columned structure but due to the different image sizes and orientation, 
                 they do not form a nice shape, because of this there is some gaps with the background blue
                 color. I have considered looking into how to overlap the footer over the bottom of the page 
-                without fixing it to the bottom of the page, but that will result in some pictures being cut off or only appearing as a small line with hardly any image.
+                without fixing it to the bottom of the page, but that will result in some pictures being 
+                cut off or only appearing as a small line with hardly any image.
 
-                The facts page is a cause for concern as the images appearing on the right of the page are unable to push off the right hand side of the page do not leave the right hand edge; even by adding margins and padding the image is fixed on the right and only pushes a margin outside of the page rather than inside the viewport width.
+                The facts page is a cause for concern as the images appearing on the right of the page are 
+                unable to push off the right hand side of the page do not leave the right hand edge; even 
+                by adding margins and padding the image is fixed on the right and only pushes a margin 
+                outside of the page rather than inside the viewport width.
 
 ## Testing
 
-        Along with the Chichén-Itzá validator checks below for all our pages, I have also been taking full advantage of the inspect and developer tools on chrome browser to help indentify and bereak down any errors and issues i have found. It has been instrumental in helping me arrange and structure the site. Though there are still some errors that i cannot fix, the code i have written has been validated as such, (Results in green line towards bottom of each image)
+        Along with the Chichén-Itzá validator checks below for all our pages, I have also been taking
+         full advantage of the inspect and developer tools on chrome browser to help indentify and 
+         bereak down any errors and issues i have found. It has been instrumental in helping me arrange 
+         and structure the site. Though there are still some errors that i cannot fix, the code i have 
+         written has been validated as such, (Results in green line towards bottom of each image)
 
 ### HTML
 
@@ -155,4 +163,33 @@
 
 ![CSS Validator](assets/images/css-validator.png)
 
+## Unfixed Bugs
 
+## Deployment
+
+## Credits
+
+        The original idea for my framework was taken from a local drum teacher's website, 
+        camberleydrumteacher.co.uk, where there was a central container that narrows down the 
+        width of the content and adds a margin-esque space to either side; I considered copying 
+        this to make a narrower space for my content, but due to complications with images n
+        ot performing the way they should and being unable to understand the responsive code 
+        and they way certain text flew around the page i scrapped the concept.
+
+        I have used a map that i found on a google search to place in the index.html page to 
+        highligh the position of he ruins on the map. https://www.alamy.com/stock-photo-chichen-itza-91709206.html 
+        was the location of the photo I have borrowed.
+
+        The text was written out by myself, but i sourced a lot of the information for the site 
+        from the wikipedia page for Chichén-Itzá; https://en.wikipedia.org/wiki/Chichen_Itza.
+
+        The main images from Chichén-Itzá were taken on my own camera by myself (except the image 
+        of me and my wife which was taken by my brother) during a visit to the ruins in 2013, but 
+        are not sourced from any other site or by any other photographer.
+
+        There was one issue i had where a section of my code was ill-performing compared to the
+        rest of the site as well as a different element that i was unasure how to make do - 
+        namely, the two block divs with travel and tourism. I had some help from the slack pp1 
+        group by a user called Matt_Bodden_5p_Lead. He was able to identify a section of my code 
+        that was missing a property for the width of the section, even though there was no code 
+        telling it that it shouldn't be 100%
