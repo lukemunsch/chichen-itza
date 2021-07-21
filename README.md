@@ -1,7 +1,27 @@
 # **Chichén-Itzá - The Mayan ruins of Mexico**
 
-## # Table of Contents
-1. [Link to live site](#link to live site)
+## # Table of contents
+1. [Link to live site](#Linktolivesite)
+2. [Wireframes](#wireframes)
+3. [Overview](#overview)
+4. [User Stories](#userstories)
+5. [Features](#features)
+        1. [Style Choices](#stylechoices)
+        2. [Hero Image + Overlay](#heroimage+overlay)
+        3. [Nav bar](#navbar)
+        4. [Summary](#summary)
+        5. [Map + Aside](#map+aside)
+        6. [Travel + Tourism](#travel+tourism)
+        7. [Footer](#footer)
+        8. [Facts and Images](#factsandimages)
+        9. [Gallery Page](#gallerypage)
+6. [Implementation](#implementation)
+7. [Testing](#testing)
+        1. [HTML](#html)
+        2. [CSS](#css)
+8. [Unfixed Bugs](#unfixedbugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
 
 ## **Link to live site**
 
