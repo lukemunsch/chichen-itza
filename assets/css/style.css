@@ -373,6 +373,10 @@ h6 {
       width: 100%;
   }
 
+  .footer-icons {
+      height: 50px;
+  }
+
   @media screen and (max-width:1000px) {
       .shrink-text {
           width: 80%;
