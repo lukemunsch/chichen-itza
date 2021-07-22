@@ -1,6 +1,7 @@
 # **Chichén-Itzá - The Mayan ruins of Mexico**
 
 ## # Table of contents
+
 1. [Link to live site](#linktolivesite)
 2. [Wireframes](#wireframes)
 3. [Overview](#overview)
