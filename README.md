@@ -1,7 +1,7 @@
 # **Chichén-Itzá - The Mayan ruins of Mexico**
 
 ## # Table of contents
-1. [Link to live site](#Linktolivesite)
+1. [Link to live site](#linktolivesite)
 2. [Wireframes](#wireframes)
 3. [Overview](#overview)
 4. [User Stories](#userstories)
@@ -168,19 +168,19 @@ written has been validated as such, (Results in green line towards bottom of eac
 
 ### HTML
 
-Index Page Check
+#### Index Page Check
 
 ![Index page Validator](assets/images/index-validator.png)
 
-Facts page Check
+#### Facts page Check
 
 ![Facts page Validator](assets/images/facts-validator.png)
 
-Gallery Page Check
+#### Gallery Page Check
 
 ![Gallery page Validator](assets/images/gallery-validator.png)
 
-CSS Check
+#### CSS Check
 
 ![CSS Validator](assets/images/css-validator.png)
 
@@ -188,7 +188,8 @@ CSS Check
 
 ## Deployment
 
-This site has been deployed (see Link to live site)
+This site has been deployed (see Link to live site).
+
 The steps i took to deploy the site were:
 1. Open Github repo for chichen-itza.
 2. Navigate to settings (top right of page).
