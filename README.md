@@ -183,7 +183,7 @@ written has been validated as such, (Results in green line towards bottom of eac
 
 #### CSS Check
 
-![CSS Validator](assets/images/css-validator.png)
+![CSS Validator](assets/images/validators/css-validator.png)
 
 ## Unfixed Bugs
 
