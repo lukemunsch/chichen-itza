@@ -187,6 +187,10 @@ written has been validated as such, (Results in green line towards bottom of eac
 
 ## Unfixed Bugs
 
+There is a photo near on the facts page that is in the facts_right section that is attached to the right hand edge of the body, but i am unable to move it away from the edge. This is the only element that is affected by this and i have run this by a couple of people including mentor and slack community channel with no identification of the issue.
+
+
+
 ## Deployment
 
 This site has been deployed (see Link to live site).
