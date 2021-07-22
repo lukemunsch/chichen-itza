@@ -141,7 +141,7 @@ h6 {
 
   .left-half-column {
       width: 45%;
-      display: inline-block;
+      display: block;
       float: left;
       text-align: right;
       position: relative;
@@ -161,7 +161,7 @@ h6 {
   .right-half-column {
       max-width: 50%;
       float: right;
-      display: inline-block;
+      display: block;
       position: relative;
       text-align: left;
   }
@@ -170,7 +170,7 @@ h6 {
       float: right;
       right: 10px;
       width: 45%;
-      display: inline-block;
+      display: block;
       margin: 0 auto;
   }
 
@@ -309,7 +309,7 @@ h6 {
   .footer_text-right {
       width: 60%;
       text-align: center;
-      display: inline-block;
+      display: block;
       float: right;
       margin-right: 3rem;
   }
