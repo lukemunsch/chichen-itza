@@ -30,11 +30,11 @@ https://lukemunsch.github.io/chichen-itza/
 
 ## **Wireframes**
 
-[Index Page Here](https://i.imgur.com/r16x3Y3.png)
+[Index Page Here](assets/images/wireframes/portfolio_project_1_index.png)
 
-[Facts Page Here](https://i.imgur.com/HJCCgOP.png)
+[Facts Page Here](assets/images/wireframes/portfolio_project_1_facts.png)
 
-[Gallery Page Here](https://i.imgur.com/t9zm8bJ.png)
+[Gallery Page Here](assets/images/wireframes/portfolio_project_1_gallery.png)
 
 ## Overview
 
@@ -171,15 +171,15 @@ written has been validated as such, (Results in green line towards bottom of eac
 
 #### Index Page Check
 
-![Index page Validator](assets/images/index-validator.png)
+![Index page Validator](assets/images/validators/index-validator.png)
 
 #### Facts page Check
 
-![Facts page Validator](assets/images/facts-validator.png)
+![Facts page Validator](assets/images/validators/facts-validator.png)
 
 #### Gallery Page Check
 
-![Gallery page Validator](assets/images/gallery-validator.png)
+![Gallery page Validator](assets/images/validators/gallery-validator.png)
 
 #### CSS Check
 
