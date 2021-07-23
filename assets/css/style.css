@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
 
 body {
-    width: 100vw;
+    width: 99vw;
     font-family: 'Open Sans', 'Oswald', sans-serif;
     background-color: rgb(49, 118, 245);
     color: rgb(213, 218, 218);
-    margin: 0 auto;
     border: 5px outset rgb(189, 192, 194);
-    overflow-x: hidden;
+    margin: 0;
 }
 
 section {
@@ -188,18 +187,14 @@ h6 {
   }
 
   .watermark-background-image {
-        width: 100%;
+        width: 99%;
         border: 5px outset rgb(189, 192, 194);
-        background: url(../images/observatory-close-landscape.JPG) center center/ cover no-repeat;
+        background: url(../images/observatory-close-landscape.JPG) center center / cover no-repeat;
   }
 
   .watermark-background-image h2 {
       color: #444444;
       text-align: left;
-  }
-
-  h2.text-underline {
-      padding-left: 0;
   }
 
   .centered-text h2 {
@@ -218,7 +213,7 @@ h6 {
         text-align: left;
         border-radius: 3px;
         border: 3px outset rgb(189, 192, 194);
-        top: 100px;
+        top: 50px;
         z-index: 1;
   }
 
@@ -370,7 +365,7 @@ h6 {
   }
 
   div.centered-text {
-      width: 70%;
+      width: 80%;
       font-size: 150%;
   }
 
@@ -613,6 +608,10 @@ h6 {
         margin: 0 auto;
     }
 
+    .facts_left-stack {
+        margin-bottom: 10px;
+    }
+
     div.facts_left-stack {
         width: 100%;
     }
@@ -645,5 +644,9 @@ h6 {
         width: 90%;
     }
 
+    div.centered-text {
+        width: 90%;
+        font-size: 125%;
+    }
 
   }
