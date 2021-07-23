@@ -123,22 +123,27 @@ This is also styled in the 'RAISED-BLOCK' style similar to the rest of the eleme
 ### Travel + tourism
 
 * The two sections are layered on top of the background image which is a key construct of Chichén-Itzá, the observatory.
-* The two text sections blocked off in color are designed to overlap depending on the size of the screen. 
+* The two text sections blocked off in color are designed to overlap depending on the size of the screen. This is to 
+improve upon the 'tiered' levels style.
 * They are styled in the outset border to appear tiered.
-* the header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 
+* The header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 
 pixels.
         
 ### Footer
 
 The footer is featured on the bottom of the three pages and will give the users a quick glance
-at the author of the page with an image and text description; name and profession. An image 
-with a stamp icon as well as the textual description and job title for viewers information.
+at the author of the page with an image and text description; name and profession and social 
+media links. An image with a stamp icon as well as the textual description and job title for 
+viewers information.
 
 ### Facts and images
 
-This page has a swapping structure with images swapping sides and text opposite ans well 
+This page has a swapping structure with images swapping sides and text opposite as well 
 as in between the sections, giving them space like a cluster of buildings at the ruins. 
 Like the buildings and their decorations, the page is uniform in their structure.
+
+As the responsive aspects change will centralise all the text and images in order to keep
+the text clearly and readable.
 
 ### Gallery page
 
@@ -146,7 +151,7 @@ The gallery page is laid out with columns of photos for the viewers to see detai
 from around Chichén-Itzá. Columned gallery will also reposnd to sscreen size by reducing the 
 number of columns to help the images retain easy view quality. The images dont always correctly
 aline themselves correctly to the full page nicely, so the footer at the bottom fo the page 
-will give the page a "fixed bottom" instead of tailing off. There are still a few gaps.
+will give the page a "fixed bottom" instead of tailing off. There are still a few gaps created by the masonry style gallery between the end of the gallery and the footer.
 
 ## Implementations
 
