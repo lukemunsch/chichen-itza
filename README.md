@@ -38,13 +38,14 @@ https://lukemunsch.github.io/chichen-itza/
 
 ## Overview
 
-The Chichén-Itzá site is designed to give users a brief overview about the historic     site and information about the relevance to the country in regards to bringing in 
-tourists which affects the economy of Mexico. 
+The Chichén-Itzá site is designed to give users a brief overview about the historic
+ site and information about the relevance to the country in regards to bringing in 
+ tourists which affects the economy of Mexico. 
     
 Chichén-Itzá is intended for users who are interested in the historic value of the 
 site by introducing them to facts and images of some of the key features and buildings. 
 Chichén-Itzá site will be useful to users who have interest in either visiting the site 
-to experience it for themselves.
+to experience it for themselves or learning about the site in general.
 
 
 ## User Stories
@@ -73,6 +74,10 @@ to keep it easy on the eyes without harsh color contrasts.
 - the border style of outset creating the appearance of 'tiers' to the element similar to 
 the building style of the site that look like steps up the building.
 
+As the pges become responsive, the elements that are sat side by side will start to stack 
+on top of one another in order to keep the sections clear and not span too many scrolling 
+section on the smaller screen with the images becoming too small to examine.
+
 ### Hero Image + Overlay
 
 The image used at the top of the page is the famous Temple of Kukulkan; the Feathered 
@@ -81,17 +86,18 @@ with Chichén-Itzá. This led me to use it as the responsive header image for th
 on all three pages.
 
 The overlay text is in a curvey style text in the same color as the body of the site.
-There is text shadow to help separate the writing from the similar color background as 
-the site becomes responsive and the text moves to different contracts against the background.
-The position of the writing as the site responds to viewport width requires the text to 
-change size in order to not distort as much as possible.
+There is text slightly transparent background in the same color as the building color 
+to help separate the writing from the similar color background as the site becomes 
+responsive and the text moves to different contracts against the background. The 
+position of the writing as the site responds to viewport width requires the text to 
+change size in order to not distort as much as possible and still be clearly ligible.
 
 ### Nav bar
 
 The nav bar is linked to all three pages and is responsive to the size 
 of the viewport. With the order of links from higest relevance to lowest, this 
 set of links is positioned consistently in the same place - below the hero image 
-for the page - so it is easier to navigate the site.
+for the page - so it is easier to navigate the site. It will also have an active class showing which page is currently being viewed.
 
 The nav bar will be responsive and as the viewport changes size the elements within it 
 will change to accomodate the smaller areas.
@@ -105,7 +111,7 @@ popular.
 Centralised text in temple structure style to keep consistant with the style for the Chichén-Itzá 
 site.
 
-### Map + Aside
+### Map + Text
 
 This section is a text description of the map positioned aside the text.
 This pairing allows the user to see the location of Chichén-Itzá in relation 
@@ -116,10 +122,11 @@ This is also styled in the 'RAISED-BLOCK' style similar to the rest of the eleme
 
 ### Travel + tourism
 
-* The two sections are layered on top of the background image which is a key construct of Chichén-Itzá, the observatory
+* The two sections are layered on top of the background image which is a key construct of Chichén-Itzá, the observatory.
 * The two text sections blocked off in color are designed to overlap depending on the size of the screen. 
 * They are styled in the outset border to appear tiered.
-* the header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 pixels.
+* the header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 
+pixels.
         
 ### Footer
 

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400&family=Oswald:wght@400;500;600&display=swap');
 
 body {
-    width: 99vw;
+    width: 100vw;
     font-family: 'Open Sans', 'Oswald', sans-serif;
     background-color: rgb(49, 118, 245);
     color: rgb(213, 218, 218);
     border: 5px outset rgb(189, 192, 194);
     margin: 0;
+    box-sizing: border-box;
 }
 
 section {
