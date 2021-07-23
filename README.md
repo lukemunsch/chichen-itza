@@ -78,6 +78,12 @@ As the pges become responsive, the elements that are sat side by side will start
 on top of one another in order to keep the sections clear and not span too many scrolling 
 section on the smaller screen with the images becoming too small to examine.
 
+### favicon
+
+I have inlcuded an icon for the browser and bookmarks to display when they are on my 
+site, which is a small version of the Temple of Kukulkan, relating spcifically to the 
+topic of the site.
+
 ### Hero Image + Overlay
 
 The image used at the top of the page is the famous Temple of Kukulkan; the Feathered 
@@ -177,7 +183,11 @@ Along with the Chichén-Itzá validator checks below for all our pages, I have a
 full advantage of the inspect and developer tools on chrome browser to help indentify and 
 bereak down any errors and issues i have found. It has been instrumental in helping me arrange 
 and structure the site. Though there are still some errors that i cannot fix, the code i have 
-written has been validated as such, (Results in green line towards bottom of each image)
+written has been validated as such, (Results in green line towards bottom of each image).
+
+I have also tested it on multiple devices and gave it to some users to view and feedback. 
+They have pointed out some sections that have been an issue but have now been resolved 
+thanks to their comments.
 
 ### HTML
 
@@ -199,9 +209,9 @@ written has been validated as such, (Results in green line towards bottom of eac
 
 ## Unfixed Bugs
 
-There is a photo near on the facts page that is in the facts_right section that is attached to the right hand edge of the body, but i am unable to move it away from the edge. This is the only element that is affected by this and i have run this by a couple of people including mentor and slack community channel with no identification of the issue.
-
-
+Currently the gallery page has ugly spaces that don't tie to the page neatly;
+this is currently something that i have been looking into, but i have not yet come 
+across something that resolves this in a tidy fashion.
 
 ## Deployment
 
@@ -212,7 +222,8 @@ The steps i took to deploy the site were:
 2. Navigate to settings (top right of page).
 3. Scroll down to the pages option in the list to the left.
 4. In the dropdown for source, choose master.
-5. Hit Save and wait for link to show as  "Your site is published at https://lukemunsch.github.io/chichen-itza/"
+5. Hit Save and wait for link to show as  "Your site is published at 
+https://lukemunsch.github.io/chichen-itza/"
 
 ## Credits
 
@@ -244,7 +255,16 @@ separate div container to the inside of the div container including the text for
 tourism part. After playing around with the idea i have managed to create a responsive 
 section that can avoid overlapping the travel div over the text in the tourism div.
 
-There is a stylesheet using bootstrap that i was (mis)informed i should be using. Although 
-there is now no section of code that includes bootstrap responsive code, it does make slight 
-changes when i remove it. Bootstrap was the idea of one of my mentors but i have since 
-learnt that it is not required for Chcién-Itzá.
+I was informed by a mentor that i should be fully using bootstrap and that my site 
+will be respoinsive with its use. I included some bootstrap to fix issues with the 
+responsiveness of my site. THIS HAS NOW ALL BEEN REMOVED; thanks to my new mentor, 
+Chris Quin, his advice my site now has no bootstrap and the layout is fixed.
+
+An issue i have been having was where the viewport width, although being stated as 100% and 100vw, 
+stil extended a few pixels wider than the screen whch was causing the need to scroll of "unpinch" 
+the page to see the whole thing. it only lost view of the right and side border, but it caused 
+me great anguish looking at it and screaming. Thanks to a member of clack community, Luke Hickson, 
+he was able to provide me with a simple piece of code that resolved my issue.
+
+The icon i am using for my favicon.ico is a small temple gif i located through a google search; 
+the site for the image i found is https://www.pinterest.co.uk/pin/389913280219921766/
