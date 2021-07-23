@@ -108,6 +108,8 @@ for the page - so it is easier to navigate the site. It will also have an active
 The nav bar will be responsive and as the viewport changes size the elements within it 
 will change to accomodate the smaller areas.
 
+![Header and Nav Sections](assets/images/screenshots/header-screenshot.png)
+
 ### Summary
 
 This is just a brief overview of the site, including the pronunciation of the name and 
@@ -116,6 +118,8 @@ popular.
 
 Centralised text in temple structure style to keep consistant with the style for the Chichén-Itzá 
 site.
+
+![Summary Section](assets/images/screenshots/summary-screenshot.png)
 
 ### Map + Text
 
@@ -126,6 +130,8 @@ to other parts of Mexico.
 The map image was picked out from google image search of 'map of Chichén-Itzá'. 
 This is also styled in the 'RAISED-BLOCK' style similar to the rest of the elements.
 
+![Text and Map Section](assets/images/screenshots/text-map-screenshot.png)
+
 ### Travel + tourism
 
 * The two sections are layered on top of the background image which is a key construct of Chichén-Itzá, the observatory.
@@ -134,6 +140,8 @@ improve upon the 'tiered' levels style.
 * They are styled in the outset border to appear tiered.
 * The header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 
 pixels.
+
+![Travel and Tourism Section](assets/images/screenshots/travel-tourism-screshots.png)
         
 ### Footer
 
@@ -141,6 +149,8 @@ The footer is featured on the bottom of the three pages and will give the users 
 at the author of the page with an image and text description; name and profession and social 
 media links. An image with a stamp icon as well as the textual description and job title for 
 viewers information.
+
+![Footer Section](assets/images/screenshots/footer-screeshot.png)
 
 ### Facts and images
 
@@ -151,6 +161,8 @@ Like the buildings and their decorations, the page is uniform in their structure
 As the responsive aspects change will centralise all the text and images in order to keep
 the text clearly and readable.
 
+![Text and Images Section](assets/images/screenshots/text-image-scresnshot.png)
+
 ### Gallery page
 
 The gallery page is laid out with columns of photos for the viewers to see detailed pictures 
@@ -158,6 +170,8 @@ from around Chichén-Itzá. Columned gallery will also reposnd to sscreen size b
 number of columns to help the images retain easy view quality. The images dont always correctly
 aline themselves correctly to the full page nicely, so the footer at the bottom fo the page 
 will give the page a "fixed bottom" instead of tailing off. There are still a few gaps created by the masonry style gallery between the end of the gallery and the footer.
+
+![Gallery section](assets/images/screenshots/gallery-screenshot.png)
 
 ## Implementations
 
