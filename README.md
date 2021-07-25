@@ -186,7 +186,9 @@ color. I have considered looking into how to overlap the footer over the bottom 
 without fixing it to the bottom of the page, but that will result in some pictures being 
 cut off or only appearing as a small line with hardly any image.
 
-the images have been rescaled a couple of times in order to improve the performance shown on the lighthouse report as they original files were needlessly huge, but since rescaling the images to a more appropriate size, the loading time for the pages have been greatly improved.
+the images have been rescaled a couple of times in order to improve the performance shown 
+on the lighthouse report as they original files were needlessly huge, but since rescaling 
+the images to a more appropriate size, the loading time for the pages have been greatly improved.
 
 ![Lighthouse Report](assets/images/screenshots/lighthouse-report-screenshot.png)
 
@@ -281,3 +283,6 @@ he was able to provide me with a simple piece of code that resolved my issue.
 
 The icon i am using for my favicon.ico is a small temple gif i located through a google search; 
 the site for the image i found is https://www.pinterest.co.uk/pin/389913280219921766/
+
+The fonts i have used are a set downloaded from fonts.google.com and have been used throughout 
+my project for all sections; header image conver text, header elements and the paragegraph text.
