@@ -186,10 +186,9 @@ color. I have considered looking into how to overlap the footer over the bottom 
 without fixing it to the bottom of the page, but that will result in some pictures being 
 cut off or only appearing as a small line with hardly any image.
 
-The facts page is a cause for concern as the images appearing on the right of the page are 
-unable to push off the right hand side of the page do not leave the right hand edge; even 
-by adding margins and padding the image is fixed on the right and only pushes a margin 
-outside of the page rather than inside the viewport width.
+the images have been rescaled a couple of times in order to improve the performance shown on the lighthouse report as they original files were needlessly huge, but since rescaling the images to a more appropriate size, the loading time for the pages have been greatly improved.
+
+![Lighthouse Report](assets/images/screenshots/lighthouse-report-screenshot.png)
 
 ## Testing
 
