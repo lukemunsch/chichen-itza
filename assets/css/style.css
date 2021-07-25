@@ -52,7 +52,7 @@ hr {
 #hero-image {
     height: 450px;
     width: 100%;
-    background: url(../images/kukulkan-hero-image.JPG) top center / cover no-repeat;
+    background: url(../images/kukulkan-hero-image.jpg) top center / cover no-repeat;
     position: relative;
 }    
 
@@ -190,7 +190,7 @@ h6 {
   .watermark-background-image {
         width: 99%;
         border: 5px outset rgb(189, 192, 194);
-        background: url(../images/observatory-close-landscape.JPG) center center / cover no-repeat;
+        background: url(../images/observatory-close-landscape.jpg) center center / cover no-repeat;
   }
 
   .watermark-background-image h2 {
