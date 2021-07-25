@@ -141,7 +141,7 @@ improve upon the 'tiered' levels style.
 * The header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 
 pixels.
 
-![Travel and Tourism Section](assets/images/screenshots/travel-tourism-screshots.png)
+![Travel and Tourism Section](assets/images/screenshots/travel-tourism-screenshot.png)
         
 ### Footer
 
@@ -150,7 +150,7 @@ at the author of the page with an image and text description; name and professio
 media links. An image with a stamp icon as well as the textual description and job title for 
 viewers information.
 
-![Footer Section](assets/images/screenshots/footer-screeshot.png)
+![Footer Section](assets/images/screenshots/footer-screenshot.png)
 
 ### Facts and images
 
@@ -161,7 +161,7 @@ Like the buildings and their decorations, the page is uniform in their structure
 As the responsive aspects change will centralise all the text and images in order to keep
 the text clearly and readable.
 
-![Text and Images Section](assets/images/screenshots/text-image-scresnshot.png)
+![Text and Images Section](assets/images/screenshots/text-image-screenshot.png)
 
 ### Gallery page
 
