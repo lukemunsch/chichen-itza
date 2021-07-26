@@ -305,3 +305,8 @@ the site for the image i found is https://www.pinterest.co.uk/pin/38991328021992
 
 The fonts i have used are a set downloaded from fonts.google.com and have been used throughout 
 my project for all sections; header image conver text, header elements and the paragegraph text.
+
+The National Geographic embedded video for the Chichén-Itzá site has been taken from Youtube.com, 
+the site is clearly identified in the text partner to the video and linked directly to the same 
+page within the site. Creditation goes to national georaphic for creating and youtube.com for 
+hosting the video i have used. 

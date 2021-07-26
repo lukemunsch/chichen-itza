@@ -252,6 +252,12 @@ h6 {
       position: relative;
   }
 
+  .video-size {
+      width: 90%;
+      max-height: 300px;
+      border: 5px outset rgb(104, 104, 104);
+  }
+
   /*footer section styling*/
 
   footer {
