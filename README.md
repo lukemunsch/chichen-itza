@@ -167,6 +167,19 @@ the text clearly and readable.
 
 ![Text and Images Section](assets/images/screenshots/text-image-screenshot.png)
 
+### Video and Text
+
+This section of the page follows the same breakdown as the rest of the facts page with 
+swapping text and image sides. This allows the user to use controls and play the video 
+of Chichén-Itzá. The video cmoes from youtube and is referenced in the text next to the 
+video.
+
+The video is a 360 exploring video of Chichén-Itzá, which allows the user to manipulate 
+it and rotate it as the user sees fit. This also allows the user to "experience the ruins" 
+as though they were there.
+
+![Video Section](assets/images/screenshots/video-screenshot.png)
+
 ### Gallery page
 
 The gallery page is laid out with columns of photos for the viewers to see detailed pictures 
