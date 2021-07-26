@@ -101,12 +101,15 @@ change size in order to not distort as much as possible and still be clearly lig
 ### Nav bar
 
 The nav bar is linked to all three pages and is responsive to the size 
-of the viewport. With the order of links from higest relevance to lowest, this 
-set of links is positioned consistently in the same place - below the hero image 
-for the page - so it is easier to navigate the site. It will also have an active class showing which page is currently being viewed.
+of the viewport. With the order of links from higest relevance to lowest left to right, 
+this set of links is positioned consistently in the same place - below the hero image 
+for the page - so it is easier to navigate the site. It will also have an active 
+class showing which page is currently being viewed.
 
 The nav bar will be responsive and as the viewport changes size the elements within it 
-will change to accomodate the smaller areas.
+will change to accomodate the smaller areas. It also has a 3d outset appearance of the 
+tiered border to keep in line with the rest of the styled page and acts like a pressed 
+button with an inset clicked appearance.
 
 ![Header and Nav Sections](assets/images/screenshots/header-screenshot.png)
 
@@ -137,6 +140,7 @@ This is also styled in the 'RAISED-BLOCK' style similar to the rest of the eleme
 * The two sections are layered on top of the background image which is a key construct of Chichén-Itzá, the observatory.
 * The two text sections blocked off in color are designed to overlap depending on the size of the screen. This is to 
 improve upon the 'tiered' levels style.
+* The colors for the background are taken from the colors of the stones in the images and opposite color scheme for background/text.
 * They are styled in the outset border to appear tiered.
 * The header is also in the same color scheme and will centralise above the blocks when the screen is smaller than 700 
 pixels.
@@ -182,13 +186,15 @@ in line with the tidy style;
 
 The Gallery has a columned structure but due to the different image sizes and orientation, 
 they do not form a nice shape, because of this there is some gaps with the background blue
-color. I have considered looking into how to overlap the footer over the bottom of the page 
-without fixing it to the bottom of the page, but that will result in some pictures being 
-cut off or only appearing as a small line with hardly any image.
+color. I have looked into how to overlap the footer over the bottom of the page 
+without fixing it to the bottom of the page in order to tidy up the bottom of the gallery, 
+but that will result in some pictures being cut off or only appearing as a small line with 
+hardly any image.
 
-the images have been rescaled a couple of times in order to improve the performance shown 
-on the lighthouse report as they original files were needlessly huge, but since rescaling 
-the images to a more appropriate size, the loading time for the pages have been greatly improved.
+The images have been rescaled a couple of times in order to improve the performance shown 
+on the lighthouse report as they original files were needlessly huge (originally taken many 
+year ago for different purpose and needed enormous scale), but since rescaling the images to 
+a more appropriate size, the loading time for the pages have been greatly improved.
 
 ![Lighthouse Report](assets/images/screenshots/lighthouse-report-screenshot.png)
 
