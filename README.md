@@ -317,3 +317,7 @@ The National Geographic embedded video for the Chichén-Itzá site has been take
 the site is clearly identified in the text partner to the video and linked directly to the same 
 page within the site. Creditation goes to national georaphic for creating and youtube.com for 
 hosting the video i have used. 
+
+The masonry style gallery was introduced in a previous learning project by Code Institute and 
+i have applied this to my work as i felt it was vidually a well designed layout to demonstrate 
+the pictures of Chichén-Itzá.
