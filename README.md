@@ -247,6 +247,13 @@ Currently the gallery page has ugly spaces that don't tie to the page neatly;
 this is currently something that i have been looking into, but i have not yet come 
 across something that resolves this in a tidy fashion.
 
+I have tested the site on numerous devices, and they all appear to size the elements 
+correctly and san the full viewport of the screen, however i have had one feedback 
+that the device one person used still showed some overflow on teh x axis, even though 
+all other devices are fine, i have fiddled with the code to make changes and thought 
+i had resolved this issue but even though no other device, mobile, tablet and desktop 
+has experienced this issue.
+
 ## Deployment
 
 This site has been deployed (see Link to live site).
